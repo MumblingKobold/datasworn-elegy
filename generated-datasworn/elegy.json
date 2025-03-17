@@ -13130,7 +13130,7 @@
         "url": "https://miraclem.itch.io/elegy"
       },
       "dice": "1d100",
-      "name": "Elegies",
+      "name": "Elegies: The precious promises vampires make one another…",
       "options": [
         {
           "_id": "truth.option:elegy/elegies.0",
@@ -13342,7 +13342,7 @@
         "url": "https://miraclem.itch.io/elegy"
       },
       "dice": "1d100",
-      "name": "Origins",
+      "name": "It is widely accepted that vampirism is…",
       "options": [
         {
           "_id": "truth.option:elegy/origins.0",

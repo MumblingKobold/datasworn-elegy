@@ -34,7 +34,7 @@ truths:
         quest_starter: |-
           It is said that a building designed by a vampire architect at the turn of the century contains hidden chambers that hold some kind of treasure. What does this building serve as? Why do you agree to invade and investigate it?
   origins:
-    name: Origins
+    name: It is widely accepted that vampirism is…
     type: truth
     _source:
       <<: *Source
@@ -311,7 +311,7 @@ truths:
         quest_starter: |-
           A mortal who claims to be a vampire is being accused of practicing dark magic by their neighbor. Why do you swear to defuse this situation?
   elegies:
-    name: Elegies
+    name: 'Elegies: The precious promises vampires make one another…'
     type: truth
     _source:
       <<: *Source
