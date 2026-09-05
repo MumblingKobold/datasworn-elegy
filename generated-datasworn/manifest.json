@@ -1,10 +1,10 @@
 {
-  "datasworn_version": "0.2.0",
+  "datasworn_version": "0.3.0",
   "packages": {
     "elegy": {
       "id": "elegy",
       "type": "ruleset",
-      "schemaLine": "0.2",
+      "schemaLine": "0.3",
       "packageName": "@datasworn-community/elegy",
       "path": "elegy.json",
       "description": "Datasworn JSON data for Elegy, a solo roleplaying game of vampires.",
