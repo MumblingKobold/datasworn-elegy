@@ -1,11 +1,13 @@
 # Datasworn Elegy
 
 Datasworn source data and generated package artifacts for
-[Elegy](https://miraclem.itch.io/elegy), a solo roleplaying game of vampires by
+[Elegy 3.5](https://miraclem.itch.io/elegy), a solo roleplaying game of vampires by
 moro de oliveira.
 
-This repository builds the Elegy YAML source data into a publishable npm package
+This repository builds the Elegy 3.5 YAML source data into a publishable npm package
 with `@datasworn-community/build-tools`.
+
+The published package provides Datasworn JSON data for Elegy 3.5.
 
 ## Raw JSON
 

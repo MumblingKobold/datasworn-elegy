@@ -2,7 +2,7 @@ _id: elegy
 datasworn_version: "0.1.0"
 type: ruleset
 <<: &Source
-  title: 'Elegy 3.5 truths'
+  title: 'Elegy 3.5'
   license: https://creativecommons.org/licenses/by-nc-sa/4.0
   url: https://miraclem.itch.io/elegy
   date: 2024-07-31
@@ -14,6 +14,7 @@ worlds:
     type: world
     _source:
       <<: *Source
+      title: 'Elegy 3.5 truths'
       page: 2
     truths:
       - truth:elegy/history
@@ -27,5 +28,5 @@ worlds:
       - truth:elegy/religion
       - truth:elegy/deviance
       - truth:elegy/werewolves
-      - truth:elegy/elegies
       - truth:elegy/mortal_magic
+      - truth:elegy/elegies
