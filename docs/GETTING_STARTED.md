@@ -42,10 +42,10 @@ dependencies:
 publishDependencies:
   - id: classic
     packageName: "@datasworn-community/ironsworn-classic"
-    schemaLine: "0.2"
+    schemaLine: "0.3"
   - id: starforged
     packageName: "@datasworn-community/starforged"
-    schemaLine: "0.2"
+    schemaLine: "0.3"
 ```
 
 Keep both official packages in `devDependencies` so local builds can validate

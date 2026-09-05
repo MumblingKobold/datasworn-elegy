@@ -2610,7 +2610,7 @@
       "name": "moro de oliveira"
     }
   ],
-  "datasworn_version": "0.2.0",
+  "datasworn_version": "0.3.0",
   "date": "2024-07-31",
   "delve_sites": {},
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0",
@@ -13598,5 +13598,39 @@
     }
   },
   "type": "ruleset",
-  "url": "https://miraclem.itch.io/elegy"
+  "url": "https://miraclem.itch.io/elegy",
+  "worlds": {
+    "santa_maria": {
+      "_id": "world:elegy/santa_maria",
+      "_source": {
+        "authors": [
+          {
+            "name": "moro de oliveira"
+          }
+        ],
+        "date": "2024-07-31",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+        "page": 2,
+        "title": "Elegy 3.5 truths",
+        "url": "https://miraclem.itch.io/elegy"
+      },
+      "name": "Santa Maria",
+      "truths": [
+        "truth:elegy/history",
+        "truth:elegy/origins",
+        "truth:elegy/superstitions",
+        "truth:elegy/genealogy",
+        "truth:elegy/what_mortals_know",
+        "truth:elegy/the_internet",
+        "truth:elegy/rebels",
+        "truth:elegy/blood_sorcery",
+        "truth:elegy/religion",
+        "truth:elegy/deviance",
+        "truth:elegy/werewolves",
+        "truth:elegy/elegies",
+        "truth:elegy/mortal_magic"
+      ],
+      "type": "world"
+    }
+  }
 }
