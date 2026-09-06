@@ -31,25 +31,14 @@ The package metadata lives in `datasworn.config.yaml`:
 Keep package IDs lowercase with underscores, such as `elegy`. Use npm package
 names with hyphens, such as `@datasworn-community/elegy`.
 
-## 3. Choose Dependencies
+## 3. Keep Elegy Self-Contained
 
-Elegy references IDs from both Ironsworn Classic and Starforged:
+Elegy 3.5 defines its own rules, moves, and oracles. All Datasworn references
+must resolve within the `elegy` package, so the package does not declare
+dependencies on Ironsworn Classic or Starforged.
 
-```yaml
-dependencies:
-  - classic
-  - starforged
-publishDependencies:
-  - id: classic
-    packageName: "@datasworn-community/ironsworn-classic"
-    schemaLine: "0.3"
-  - id: starforged
-    packageName: "@datasworn-community/starforged"
-    schemaLine: "0.3"
-```
-
-Keep both official packages in `devDependencies` so local builds can validate
-cross-package references.
+The validation script rejects external or unresolved Datasworn IDs and package
+dependency metadata.
 
 ## 4. Build and Validate
 

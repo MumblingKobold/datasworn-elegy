@@ -10,16 +10,6 @@ packages:
     source: source_data/elegy
     packageName: "@datasworn-community/elegy"
     schemaLine: "0.3"
-    version: "0.3.0"
-    description: "Datasworn JSON data for Elegy, a solo roleplaying game of vampires."
+    version: "0.3.1"
+    description: "Datasworn JSON data for Elegy 3.5, a solo roleplaying game of vampires."
     license: "CC-BY-NC-SA-4.0"
-    dependencies:
-      - classic
-      - starforged
-    publishDependencies:
-      - id: classic
-        packageName: "@datasworn-community/ironsworn-classic"
-        schemaLine: "0.3"
-      - id: starforged
-        packageName: "@datasworn-community/starforged"
-        schemaLine: "0.3"

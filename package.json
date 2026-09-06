@@ -3,22 +3,20 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "description": "Datasworn source and generated package artifacts for Elegy.",
+  "description": "Datasworn source and generated package artifacts for Elegy 3.5.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/datasworn-community/datasworn-elegy.git"
   },
   "scripts": {
     "build": "datasworn-build --config datasworn.config.yaml",
-    "validate": "test -f dist/packages/elegy/package.json && test -f dist/packages/elegy/json/elegy.json && test -f generated-datasworn/manifest.json && test -f generated-datasworn/elegy.json"
+    "validate": "test -f dist/packages/elegy/package.json && test -f dist/packages/elegy/json/elegy.json && test -f generated-datasworn/manifest.json && test -f generated-datasworn/elegy.json && node scripts/validate-self-contained.mjs"
   },
   "engines": {
     "bun": ">=1.3"
   },
   "devDependencies": {
     "@datasworn-community/build-tools": "0.3.0",
-    "@datasworn-community/core": "0.3.0",
-    "@datasworn-community/ironsworn-classic": "0.3.0",
-    "@datasworn-community/starforged": "0.3.0"
+    "@datasworn-community/core": "0.3.0"
   }
 }
