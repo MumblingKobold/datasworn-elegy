@@ -848,7 +848,7 @@ moves:
           
           - On a __weak hit__, you press on.
           
-          - On a __miss__, also suffer -1 focus. If you are at 0 spirit, you must mark shaken or traumatized (if currently unmarked) or roll on the following table:
+          - On a __miss__, also suffer -1 focus. If you are at 0 spirit, you must mark shaken or corrupted (if currently unmarked) or roll on the following table:
 
           {{table>move.oracle_rollable:elegy/suffer/endure_stress.endure_stress}}
 
@@ -862,7 +862,7 @@ moves:
             text: On a __weak hit__, you press on.
           miss:
             text: |-
-              On a __miss__, also suffer -1 focus. If you are at 0 spirit, you must mark shaken or traumatized (if currently unmarked) or roll on the list below.
+              On a __miss__, also suffer -1 focus. If you are at 0 spirit, you must mark shaken or corrupted (if currently unmarked) or roll on the list below.
         oracles:
           endure_stress:
             name: Endure Stress Consequences

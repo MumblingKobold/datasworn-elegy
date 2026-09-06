@@ -4613,7 +4613,7 @@
           "outcomes": {
             "miss": {
               "_id": "move.outcome:elegy/suffer/endure_stress.miss",
-              "text": "On a __miss__, also suffer -1 focus. If you are at 0 spirit, you must mark shaken or traumatized (if currently unmarked) or roll on the list below."
+              "text": "On a __miss__, also suffer -1 focus. If you are at 0 spirit, you must mark shaken or corrupted (if currently unmarked) or roll on the list below."
             },
             "strong_hit": {
               "_id": "move.outcome:elegy/suffer/endure_stress.strong_hit",
@@ -4625,7 +4625,7 @@
             }
           },
           "roll_type": "action_roll",
-          "text": "When you face mental shock or despair, suffer -spirit equal to your foe’s rank or as appropriate to the situation (see Stress). If your spirit is 0, suffer -focus equal to any remaining -spirit. Then, roll +Heart.\n\n- On a __strong hit__, choose one:\n  - Shake it off: If your spirit is greater than 0, suffer -1 focus in exchange for +1 spirit.\n  - Embrace the darkness: Take +1 focus.\n\n- On a __weak hit__, you press on.\n\n- On a __miss__, also suffer -1 focus. If you are at 0 spirit, you must mark shaken or traumatized (if currently unmarked) or roll on the following table:\n\n{{table>move.oracle_rollable:elegy/suffer/endure_stress.endure_stress}}",
+          "text": "When you face mental shock or despair, suffer -spirit equal to your foe’s rank or as appropriate to the situation (see Stress). If your spirit is 0, suffer -focus equal to any remaining -spirit. Then, roll +Heart.\n\n- On a __strong hit__, choose one:\n  - Shake it off: If your spirit is greater than 0, suffer -1 focus in exchange for +1 spirit.\n  - Embrace the darkness: Take +1 focus.\n\n- On a __weak hit__, you press on.\n\n- On a __miss__, also suffer -1 focus. If you are at 0 spirit, you must mark shaken or corrupted (if currently unmarked) or roll on the following table:\n\n{{table>move.oracle_rollable:elegy/suffer/endure_stress.endure_stress}}",
           "trigger": {
             "conditions": [
               {
